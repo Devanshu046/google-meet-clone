@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class SocketService {
     private socket!: Socket;
     // TODO: change to environment variable if needed
-    private readonly SERVER_URL = 'http://localhost:3000';
+    private readonly SERVER_URL = 'https://google-meet-clone-backend-6f5i.onrender.com/';
 
     constructor() { }
 
