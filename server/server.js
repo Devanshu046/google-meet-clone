@@ -18,6 +18,10 @@ const io = new Server(server, {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Meet Clone Server Running 🚀");
+});
+
 // Initialize socket handlers to manage rooms and signaling
 setupSocketHandlers(io);
 
